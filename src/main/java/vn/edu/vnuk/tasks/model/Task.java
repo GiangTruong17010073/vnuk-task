@@ -20,7 +20,7 @@ public class Task {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Boolean getIsComplete() {
+	public Boolean isComplete() {
 		return isComplete;
 	}
 	public void setIsComplete(Boolean isComplete) {

@@ -15,15 +15,16 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
 
-import vn.edu.vnuk.tasks.jdbc.*;
+import org.springframework.stereotype.Component;
+
+import vn.edu.vnuk.tasks.jdbc.ConnectionFactory;
 
 /**
  *
  * @author michel
  */
-@WebFilter("/mvc")
+@Component
 public class ConnectionFilter implements Filter{
 
     @Override
